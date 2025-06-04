@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 1em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.post, .comment {
+    border-bottom: 1px solid #ddd;
+    padding: 1em 0;
+    margin: 1em 0;
+}
+
+.post:last-child, .comment:last-child {
+    border-bottom: none;
+}
+
+form {
+    margin-top: 1em;
+}
+
+.form-inline .form-group {
+    display: block;
+    margin-bottom: 1em;
+}
+
+.form-inline .form-group label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.form-register .form-control,
+.form-login .form-control {
+    width: 200px;
+    padding: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form-post .form-control {
+    width: 100%;
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 1em 0;
+}
+
+img {
+    vertical-align: middle;
+    margin-left: 0.5em;
+    cursor: pointer;
+}
+
+.flashes {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.flashes li {
+    padding: 1em;
+    margin: 1em 0;
+    border-radius: 4px;
+}
+
+.flashes .message {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.flashes .error {
+    background-color: #f44336;
+    color: #fff;
+}
+
+.admin-actions {
+    display: inline;
+    margin-left: 1em;
+}
+
+.admin-actions form, .admin-actions a {
+    display: inline;
+}
+
+.selected {
+    color: red;
+}
